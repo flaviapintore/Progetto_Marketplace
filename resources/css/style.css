@@ -1,0 +1,301 @@
+/* Palette colori  */
+
+:root{
+    --MyBlack: #111112;
+    --MyWhite: #f5f4f4;
+    --MyPrimary: #f17509;
+    --MySecondary: #ee3f05;
+    --MyTertiary: #222222;
+    --MyGrey: #dbd5d5;
+}
+
+h1,h2,h3,h4,h5,p{
+    font-family: "Hind Siliguri";
+}
+
+/* background colors  */
+
+.bg-MyBlack{
+    color: var(--MyBlack);
+}
+
+.bgMyWhite{
+    color: var(--MyWhite);
+}
+
+.bgMyPrimary{
+    color: var(--MyPrimary);
+}
+
+.bgMySecondary{
+    color: var(--MySecondary);
+}
+
+.bgMyTertiary{
+    color: var(--MyTertiary);
+}
+
+.bgMyGrey{
+    color: var(--MyGrey);
+}
+
+@font-face {
+    font-family: "Khand-bold";
+    src: url(/public/fonts/Khand-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Hind Siliguri";
+    src: url(/public/fonts/HindSiliguri-SemiBold.ttf);
+}
+/* text colors  */
+
+.textMyBlack{
+    color: var(--MyBlack);
+}
+
+.textMyWhite{
+    color: var(--MyWhite);
+}
+
+.textMyPrimary{
+    color: var(--MyPrimary);
+}
+
+.textMySecondary{
+    color: var(--MySecondary);
+}
+
+.textMyTertiary{
+    color: var(--MyTertiary);
+}
+
+.textMyGrey{
+    color: var(--MyGrey);
+}
+
+.h1-custom{
+    color: var(--MySecondary);
+    font-family: "Khand-bold", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.h1-custom:hover{
+    transform: scale(1,2);
+    transition: 0.5s;
+}
+
+.h2-custom{
+    color:var(--MyTertiary);
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+.h2-show-custom{
+    color: var(--MyPrimary);
+}
+
+.video-custom{
+    height: 1000px;
+    width: 1600px;
+
+}
+
+
+.btn-vis{
+    background-color: var(--MySecondary);
+    border:solid 2px;
+}
+
+.btn-vis:hover{
+    color: var(--MyPrimary);
+    background-color: var(--MyTertiary);
+    border: solid 3px var(--MyPrimary);
+   
+}
+
+.btn-cat{
+    background-color: var(--MyPrimary);
+    border: solid 2px;
+}
+
+.btn-cat:hover{
+    color: var(--MyPrimary);
+    background-color: var(--MyTertiary);
+    border: solid 3px var(--MyPrimary);
+}
+
+.btn-cat-ven{
+    color: var(--MyPrimary);
+    background-color: var(--MyBlack);
+    border: solid 3px var(--MyPrimary);
+    width: 80px;
+    height: 40px;
+    
+}
+
+.btn-cat-ven:hover{
+    color: var(--MyBlack);
+    background-color:var(--MyPrimary);
+    border: solid 3px var(--MyBlack);
+ 
+}
+
+.btn-cat-ven:active{
+    color: var(--MyBlack);
+    background-color:var(--MyGrey);
+    border: solid 3px var(--MyBlack);
+ 
+}
+
+ 
+.card{
+    background-color: var(--MyGrey);
+}
+
+.icon-custom{
+    font-size: 20px;
+    
+}
+
+.icon-custom:hover{
+ color: var(--MySecondary);
+}
+
+.nav-custom{
+    background-color: var(--MyGrey);
+}
+
+.nav-link{
+    color: var(--MyBlack);
+    font-family: "Hind Siliguri";
+}
+.nav-link:hover{
+    color: var(--MyPrimary);
+    transform: scale(1,1.1);
+    transition: 0.2s;
+
+}
+
+
+.bg-custom{
+    background-color: var(--MyTertiary);
+    margin-top: 50px;
+}
+
+.form-group{
+    color: var(--MyPrimary);
+}
+
+/* .btn-primary{
+
+} */
+
+.bg-footer{
+    background-color: var(--MyTertiary);
+}
+
+.text-footer{
+    color: var(--MyPrimary);
+}
+
+.form-label{
+    color: var(--MyPrimary);
+}
+
+.card-show{
+    color: var(--MyBlack);
+    background-color: rgba(255, 255, 255 , 0.3);
+}
+
+.card-title{
+    color: var(--MySecondary);
+}
+
+.card-footer{
+    background-color: var(--MyGrey);
+}
+
+.btn-search{
+    color: var(--MyPrimary);
+    background-color: var(--MyBlack);
+    border: solid 1px var(--MyBlack);
+
+}
+
+.btn-search:hover{
+    color: var(--MyBlack);
+    background-color:var(--MyPrimary);
+    border: solid 1px var(--MyPrimary);
+}
+
+.img-preview{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.border-cus{
+    border: solid 2px var(--MyPrimary);
+}
+
+.btn-footer{
+    background-color: var(--MyPrimary);
+    color: var(--MyBlack);
+    border: solid 5px (--MyBlack);
+}
+
+.btn-footer:hover {
+    background-color: var(--MyBlack);
+    color: var(--MyPrimary);
+}
+
+.btn-show{
+    color: var(--MySecondary);
+    background-color: var(--MyTertiary);
+    border: solid 1px var(--MySecondary);
+}
+
+.btn-show:hover{
+    color: var(--MyTertiary);
+    background-color:var(--MySecondary);
+    border: solid 2px var(--MyTertiary);
+}
+
+
+.rev-custom{
+    background-color: var(--MyPrimary);
+    color:var(--MyTertiary);
+    font-family: "Hind Siliguri";
+}
+
+.text-rev{
+    color: var(--MyWhite);
+}
+
+.fa-arrow-right{
+   color: var(--MyPrimary)!important;
+   font-size: 2rem;
+}
+
+.fa-arrow-left{
+    color: var(--MyPrimary)!important;
+   font-size: 2rem;
+}
+
+.text-label{
+color: var(--MyPrimary);
+
+}
+
+.title-label{
+    color: var(--MyWhite);
+    font-family: "Hind Siliguri";
+}
+.text-label2{
+    color: var(--MyWhite);
+
+
+}
